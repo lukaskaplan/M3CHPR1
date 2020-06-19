@@ -50,9 +50,18 @@ You can see PCB before quality check and etching in the following picture:
 ### Soldering
 
 <img src="/images/PCB_top.png" width=500 alt="M3CHPR1 - PCB top layer">
-
 <img src="/images/soldering.JPG" width=500 alt="M3CHPR1 - soldering">
+<img src="/images/PCB_with_parts.JPG" width=500 alt="M3CHPR1 - PCB, parts soldered">
+
+After this step, check all connections and check if there are not short circuits between PCB tracks! Then you can connect your attiny85 module.
 
 ### Code
+For first time, we will do few simple tests. 
+1. connect it to 12V DC power supply - green led lights.
+2. Upload "Blink" example code to attiny with output pin 1 (p1) - then you should hear relay changing its state, you can see blinking red LEDs (one buil-in on attiny board, second one is between NC/NO screw terminals).
+
+
+<img src="/images/blink-test1.JPG" width=500 alt="M3CHPR1 - blink test">
+<img src="/images/blink-test2.JPG" width=500 alt="M3CHPR1 - blink test">
 
 TODO - add code description
