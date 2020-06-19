@@ -13,6 +13,10 @@ I use it in E-Stop circuit. 'NO' (normaly-open) contacts are connected in series
 If you have your CNC machine connected via LPT to PC. Imagine that you turn on your machine, but your computer is not ready yet. I realized that PC during boot changes state of LPT pins unexpectedly. So it can be dangerous for your machine and even for you. We want to wait when MACH3 is ready - than we can unblock all moving parts of machine.
 
 ## How to build it?
+
+### Schematic
+<img src="Schematic.png" width=800 alt="M3CHPR1 - Schematic">
+
 ### PCB
 Create this PCB: https://github.com/lukaskaplan/M3CHPR1/blob/master/PCB_bottom.pdf
 
