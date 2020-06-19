@@ -10,7 +10,7 @@ Smart relay which can detect charge pump signal (12.5kHz) from MACH3 CNC softwar
 I use it in E-Stop circuit. 'NO' (normaly-open) contacts are connected in series with end stops and E-Stop buttons. 
 
 ## Why use this module?
-If you have your CNC machine connected via LPT to PC. Imagine that you turn on your machine, but your computer is not ready yet. I realized that PC changes state of LPT pins unexpectedly. So it can be dangerous for your machine and even for you. We want to wait when MACH3 is ready - than we can unblock all moving parts of machine.
+If you have your CNC machine connected via LPT to PC. Imagine that you turn on your machine, but your computer is not ready yet. I realized that PC during boot changes state of LPT pins unexpectedly. So it can be dangerous for your machine and even for you. We want to wait when MACH3 is ready - than we can unblock all moving parts of machine.
 
 ## How to build it?
 ### PCB
