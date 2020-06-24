@@ -6,6 +6,11 @@ Smart relay which can detect charge pump signal (12.5kHz) from MACH3 CNC softwar
 
 <img src="/images/M3CHPR1.JPG" width=300 alt="M3CHPR1 - Mach3 charge pump relay">
 
+Charge pum signal:
+
+<img src="/images/ChargePumpSignalCapture.png" width=1000 alt="Mach3 charge pump signal capture">
+
+
 ## Typical usage
 I use it in E-Stop circuit. 'NO' (normaly-open) contacts are connected in series with end stops and E-Stop buttons. 
 
