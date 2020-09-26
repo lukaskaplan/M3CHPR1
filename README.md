@@ -20,7 +20,7 @@ If you have your CNC machine connected via LPT to PC. Imagine that you turn on y
 ## How to build it?
 
 ### Schematic
-<img src="Schematic.png" width=800 alt="M3CHPR1 - Schematic">
+<img src="images/Schematic.png" width=800 alt="M3CHPR1 - Schematic">
 
 ### PCB
 Create this PCB: https://github.com/lukaskaplan/M3CHPR1/blob/master/PCB_bottom.pdf
